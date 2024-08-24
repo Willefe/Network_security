@@ -36,3 +36,45 @@ from networksecurity.entity.artifact_entity import (
 class TrainingPipeline:
     def __init__(self):
         self.training_pipeline_config = TrainingPipelineConfig()
+
+    def start_data_ingestion(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e, sys)
+
+    def start_data_validation(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e, sys)
+
+    def start_data_transformation(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e, sys)
+
+    def start_model_trainer(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e, sys)
+
+    def start_model_evaluation(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e, sys)
+
+    def start_model_push(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e, sys)
+
+    def run_pipeline(self):
+        try:
+            pass
+        except Exception as e:
+            raise NetworkSecurityException(e, sys)
